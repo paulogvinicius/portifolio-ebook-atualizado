@@ -1,0 +1,339 @@
+body {
+ 
+    margin: 0;
+    
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  /* Links navegação */
+  
+  .links{
+    display: flex;
+    justify-content: center;
+    
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  
+  .links a{
+    color: #04fc04;
+    text-decoration: none;
+  }
+  
+  .link{
+    padding: 1rem 0.5rem;
+    background: #0a0a0a;
+  }
+  
+  
+  /*inicio*/
+  
+  section#inicio {
+    padding-bottom: 15rem; /* era 200 px alterei para 12.5 rem, verificar a questão da flexibilidade */
+      padding-top: 10rem; /* era 100 px alterei para 6.25 rem, verificar a questão da flexibilidade */
+      background: #000000; 
+      margin: 0;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  div#start h1, h3, p{
+    margin: 0;
+  }
+  
+    div#start h1{
+  
+      font-size: 40px;
+      color: #00fd0d;
+      font-weight: normal;
+      
+    }
+  
+    div#start H3{
+      font-size: 14px;
+      color: #00fd0d;
+  
+    }
+  
+    div#start p{
+      color: #afadad;
+      padding-bottom: 50px;
+    }
+    
+  
+  div#start {
+        margin: 10rem; /* era 150 px alterei para 9 rem, verificar a questão da flexibilidade */
+        
+        
+  }
+
+  div#start img{
+    width: 24rem;
+    height: 24rem;
+
+    border-radius: 100%;
+  }
+  
+  /*Inicio Button */
+  
+  button {
+    text-transform: uppercase;
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+  
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    flex-shrink: 0;
+    
+    padding: 14px 32px 15px 32px;
+    border: none;
+    background: #04fc04;
+    border-radius: 30px;
+  
+    cursor: pointer;
+  }
+  
+  /* sobre mim */
+  
+  section#sobre{
+    background-color: #1d1c1d;
+  
+    padding-left: 20rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 10rem;
+
+
+      max-width: 96rem;
+      margin: 0;
+      
+  }
+  
+  section#sobre h2 {
+    color: #04fc04;
+      font-size: 4rem;
+      font-weight: 700;
+  }
+  
+  section#sobre p {
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  
+  
+  /* Habilidades */
+  
+  section#habilidades {
+    background: #1f1f1f;
+    padding-left: 9rem; 
+    padding-right: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  section#habilidades img{
+    width: auto;
+    height: 80px;
+  }
+  
+  section#habilidades div#conteudo-habilidades {
+    
+    margin: 0 auto;
+    padding: 154px 0;
+  
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  div#conteudo-habilidades h2{
+    color: #04fc04;
+    font-weight: 700;
+    font-size: 48px;
+  }
+  
+  div#conteudo-habilidades h2 span{
+    font-size: 24px;
+    display: block;
+  }
+  
+  div#conteudo-habilidades ul#tecnologias{
+    width: 100%;
+    margin-left: 49px;
+  
+    display: flex;
+  }
+  
+  ul#tecnologias li.tecnologia{
+    
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    width: 159px;
+    height: 159px;
+    border-radius: 8px;
+  
+    box-shadow: 0px 36px 28px -24px rgba(0, 0, 0, 0.2);
+  }
+  
+  li.tecnologia:not(:last-child){
+    margin-right: 24px;
+  }
+  
+  li.tecnologia p{
+    
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 8px;
+    color: #fff;
+  }
+  
+  /* Contato */
+  
+  section#contatos {
+      
+    padding-bottom: 5rem; /* era 200 px alterei para 12.5 rem, verificar a questão da flexibilidade */
+    padding-top: 6.25rem; /* era 100 px alterei para 6.25 rem, verificar a questão da flexibilidade */
+    background: #000000;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  
+  }
+  
+  section#contatos h1{
+    font-size: 2.5rem; /* era 40 px alterei para 2.5 rem, verificar a questão da flexibilidade */
+    line-height: 3.5rem; /* era 56 px alterei para 3.5 rem, verificar a questão da flexibilidade */
+    color: #04fc04;
+  
+    font-weight: normal;
+    
+  }
+  
+  section#contatos h4{
+    color: #fff;
+  }
+  
+  div#con {
+      margin: 10rem;
+  }
+  
+  img#con {
+    width: auto; /* era 300px alterei para 19rem, verificar a questão da flexibilidade */
+    height: 15rem;
+  }
+  
+ 
+  
+  /* footer - Final */
+  
+  footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    padding: 15rem;
+      
+      margin: 0 auto;
+  
+      flex-direction: column;
+  
+      background: #000;
+  }
+  
+  footer p{
+    padding-top: 40px;
+    color: #fff;
+  }
+  
+  footer img{
+    width: 30px; 
+        height: 30px;
+  
+  }
+  
+  @media(max-width: 1200px){
+    .itens-center{
+        flex-direction: column;
+    }
+    footer,
+    section{
+        padding: 5rem;
+    }
+  
+  }
+  
+  /*Projetos*/
+  
+  section#Titulo-projetos{
+    background: #000000;
+    padding: 10px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section#Titulo-projetos h1{
+    font-size: 50px;
+    color: #00fd0d;
+  }
+  
+  section#projetos {
+      
+    padding-bottom: 50px;
+    padding-top: 10px;
+  
+      display: grid;
+      grid-template-columns: repeat(3, 370px);
+      place-content: center;
+      gap: 48px 60px;
+  
+      background: #000000;
+  }
+  
+  
+  .card {
+    background: rgb(51, 51, 51);;
+    border: 2px solid #323238;
+    
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card p {
+    color: #C4C4CC;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 14px 22px 22px;
+  }
+  
+  .card h2 {
+    color: #E1E1E6;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 14px 32px 0;
+  }
+  
+  .card img {
+    width: 366px;
+    height: 200px;
+  }
